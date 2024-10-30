@@ -4,18 +4,20 @@ from bs4 import BeautifulSoup
 import urllib.parse
 
 def clean_exercise_text(text):
+    # Remove placeholders like (1)______
     text = re.sub(r"\(\d+\)______", "", text)
+    # Split lines and keep only the stem line (the first line after the number)
     lines = text.strip().split("\n")
     if len(lines) > 0:
         stem = lines[0].strip()
     else:
         stem = ""
-    print(stem)
     return stem
 
 # Function to parse exercises and extract only the search term line
 def parse_exercises(text):
-    pattern = r'(\d{2}-\d{1,2})：(.+?)(?=(?:\d{2}-\d{1,2}:)|$)'
+    # Updated pattern to handle multi-line exercises
+    pattern = r'(\d{2}-\d{1,2})[:：](.+?)(?=(?:\d{2}-\d{1,2})[:：]|$)'
     matches = re.findall(pattern, text, re.DOTALL)
     exercises = []
     
