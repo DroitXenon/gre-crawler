@@ -12,7 +12,6 @@ def clean_exercise_text(text):
         stem = ""
     return stem
 
-# Function to parse exercises and extract only the search term line
 def parse_exercises(text):
     pattern = r'(\d{2}-\d{1,2})\s*[:：](.+?)(?=(?:\d{2}-\d{1,2})\s*[:：]|$)'
     matches = re.findall(pattern, text, re.DOTALL)
