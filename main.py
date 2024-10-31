@@ -13,7 +13,7 @@ def clean_exercise_text(text):
     return stem
 
 def parse_exercises(text):
-    pattern = r'(\d{2}-\d{1,2})\s*[:：](.+?)(?=(?:\d{2}-\d{1,2})\s*[:：]|$)'
+    pattern = r'((?:\d{1,2}-\d{1,2})|\d{1,2})\s*[.:：](.+?)(?=(?:(?:\d{1,2}-\d{1,2})|\d{1,2})\s*[.:：]|$)'
     matches = re.findall(pattern, text, re.DOTALL)
     exercises = []
     

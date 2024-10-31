@@ -1,21 +1,3 @@
-10-1: https://gre.kmf.com/explain/index/1clamk
-10-2: https://gre.kmf.com/explain/index/1ep2gk
-10-3: No link found
-10-4: https://gre.kmf.com/explain/index/88ol4k
-10-5: https://gre.kmf.com/explain/question/31861-0.html
-10-6: https://gre.kmf.com/explain/index/ffmk1k
-10-7: https://gre.kmf.com/explain/index?qid=46w7qk
-10-8: https://gre.kmf.com/explain/index/6eovjk
-10-9: https://gre.kmf.com/explain/index/f6ozok
-10-10: No link found
-10-11: https://gre.kmf.com/explain/index/5aorgk
-10-12: https://gre.kmf.com/explain/index/9bnjlk
-10-13: https://gre.kmf.com/explain/question/32374-0.html
-10-14: https://gre.kmf.com/explain/question/31852-0.html
-10-15: https://gre.kmf.com/explain/question/30516-0.html
-10-16: https://gre.kmf.com/explain/index/f5le8k
-10-17: https://gre.kmf.com/explain/index/eeokzk
-10-18: https://gre.kmf.com/explain/index/3dolik
-10-19: https://gre.kmf.com/explain/index/c4okyk
-10-20: No link found
-10-21: https://gre.kmf.com/explain/question/32283-0.html
+1: https://gre.kmf.com/explain/question/18w4kk-0.html
+2: https://gre.kmf.com/explain/index?qid=e4w2pk
+3: https://gre.kmf.com/explain/index/c6wa2k
